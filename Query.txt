@@ -1,0 +1,104 @@
+News 
+	> customer
+		lihat news
+		SELECT * FROM `news` 
+		 ( ada expired ga ?)
+		 (status kecil atau gede semua )
+		SELECT * FROM `news` where STATUS='active'
+		 
+		 
+		lihat detail news
+		SELECT * FROM `news` where ID='1'
+		
+		
+		
+		
+	> admin
+		lihat news
+		SELECT * FROM `news`
+		lihat detail news
+		SELECT * FROM `news` where ID='1'
+		tambah news
+		INSERT INTO `news` (`id`, `title`, `content`, `creator`, `createdate`, `updatedate`, `updateby`, `status`) VALUES (NULL, 'Cengkrama Tema :Narasi Foto', 'Yuk kita kumpul berbincangan dengan senang, kali ini kita akan bahas dunia jurnalistik,\r\nTamu kita yaitu  Surya Tanggono\r\nmulai dari pembahasan perihal jurnal dan fotografi. asik dong, jangan lupa datang ya.\r\n.\r\nCengkerama, Berbincang Dengan Senang.', NULL, NULL, NULL, NULL, 'Active');
+		alter / edit news
+		UPDATE `news` SET `title` = 'Festtival Kopi Nusantara Indonesia' WHERE `news`.`id` = 4; 
+		ubah status news (active/non)
+		UPDATE `news` SET `status` = 'NO' WHERE `news`.`id` = 4; 
+		delete news
+		DELETE FROM `news` WHERE `news`.`id` = 2;
+		delete news all
+		DELETE FROM `news`
+		
+		
+
+Detail News
+	> Customer
+		lihat all detail news
+		lihat next/prev detail news (front end)
+		input comment
+		lihat comment semua
+	
+	> Admin
+		lihat detail news
+		lihat next/prev detail news
+		lihat comment
+		lihat comment semua
+		input comment
+		delete comment customer semua
+		
+		
+Produk
+	> customer
+	 lihat produk bahan baku
+	 lihat produk bahan jadi 
+	 lihat list produk bahan baku
+	 lihat list produk bahan jadi
+	 lihat detail produk
+	 link produk
+	 
+	>Admin
+	 lihat produk bahan baku
+	 lihat produk bahan jadi 
+	 lihat list produk bahan baku
+	 lihat list produk bahan jadi
+	 lihat detail produk
+	 tambah produk
+	 alter produk
+	 ubah status news (active/non)
+	 
+	 
+	 
+Customer Produk
+	>Customer
+	lihat list customer
+	
+	>Admin
+	lihat list customer
+	tambah customer
+	delete customer
+	alter customer
+	
+https://www.tokopedia.com/semerusirup/sirup-yuzu-syrup-1000ml-harga-distributor-murah?trkid=f=Ca0000L000P0W0S0Sh00Co0Po0Fr0Cb0_src=shop-product_page=1_ob=11_q=_po=1_catid=1178
+
+https://tinyurl.com/y58sub78
+
+-sintaks semua fungsi
+-template website 
+
+notepad
+Festtival Kopi Nusantara
+aksikan Latte Art Throwdown Competition pertama di Summarecon Mall Bekasi tgl 29 September 2017
+
+SELECT * FROM `news` 
+
+
+belum
+
+komen section 
+rapihin list customer
+form login
+produk list 
+kontak 
+
+
+
